@@ -1,0 +1,535 @@
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/*===========================================================================
+    Custom Fonts
+==============================================================================*/
+@font-face {
+    font-family: 'latobold';
+    src: url('../fonts/lato-bold-webfont.eot');
+    src: url('../fonts/lato-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lato-bold-webfont.woff') format('woff'),
+         url('../fonts/lato-bold-webfont.ttf') format('truetype'),
+         url('../fonts/lato-bold-webfont.svg#latobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'latoregular';
+    src: url('../fonts/lato-regular-webfont.eot');
+    src: url('../fonts/lato-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lato-regular-webfont.woff') format('woff'),
+         url('../fonts/lato-regular-webfont.ttf') format('truetype'),
+         url('../fonts/lato-regular-webfont.svg#latoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'intro_regular';
+    src: url('../fonts/intro-webfont.eot');
+    src: url('../fonts/intro-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/intro-webfont.woff') format('woff'),
+         url('../fonts/intro-webfont.ttf') format('truetype'),
+         url('../fonts/intro-webfont.svg#intro_regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+html, body, header, nav, ul, li, section, h1, h2, footer, div, h3, a,p{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#video_background{
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    width: auto;
+    height: auto;
+    z-index: -99;
+    overflow: hidden;
+    bottom: 0px;
+    right: 0px;
+}
+
+
+.page{
+    width: 100%;
+}
+
+.logo{
+    width: 10%;
+    height: auto;
+    margin-left: 0.625%;
+    margin-top: 0.625%;
+    float: left;
+    position: fixed;
+    z-index: 1;
+}
+
+
+.slider{
+    width: 100%;
+    height: 5em;
+    opacity: 1;
+    position: absolute;
+    -moz-transition: all 0.4s ease-in-out; 
+    -moz-transform:translateY(-80px); 
+    -o-transition: all 0.4s ease-in-out; 
+    -o-transform:translateY(-80px); 
+    -webkit-transition: all 0.4s ease-in-out; 
+    -webkit-transform:translateY(-80px); 
+}
+
+
+.slider form{
+    float: right;
+    margin-top: 1em;
+    margin-right: 2%;
+}
+
+.inputs{
+    float: left;
+}
+
+.actions,.myButton{
+    float: right;
+}
+
+.inputs>p{
+    width: 12%;
+    color: #FFF;
+    font:1em "latoregular";
+    float: left;
+    clear: both;
+    margin-top: 0.3em;
+    text-transform: uppercase;
+
+}
+
+
+.username,.password{
+    width: 35%; 
+    height: 1.3em;
+    border: 2px solid #dadada;
+    border-radius: 2px;
+    float: left;
+    font:1em "latoregular";
+    margin-left: 2%;
+    padding-bottom: 4px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; 
+}
+
+.username:hover,.username:focus,.password:hover,.password:focus {
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+    padding:2px 10px;
+}
+
+.slider:hover{
+    -moz-transform:translateY(0px);
+    -o-transform:translateY(0px);
+    -webkit-transform:translateY(0px);
+    background: black;
+
+}
+
+
+.myButton {
+ 
+  width: 100%;
+  padding: 6px 25.6px;
+  background-color: #e8543f;
+ 
+  -webkit-transition-property: background;
+  -moz-transition-property: background;
+  -o-transition-property: background;
+  transition-property: background;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  border: none;
+  color: #fff;
+
+
+}
+.myButton:hover {
+    background-color: #c0392b;
+   
+}
+.myButton:active {
+    position:relative;
+    top:2px;
+}
+
+
+
+.arrow{
+    width: 65px;
+    height: auto;
+    float: left;
+    margin-left:45%;
+    margin-top: 3.125em;
+    position: fixed;
+
+}
+
+
+
+.RE{
+    width: 100%;
+    height: 15.75em;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #F00;
+    margin: auto;
+
+}
+
+.RE h1{
+    font:4em "intro_regular";
+    float: left;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 1em;
+}
+
+
+.RE h2{
+    font:1.5em "latobold";
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+.nav ul{
+    list-style: none;
+    position: absolute;
+    bottom:0;   
+    width: 60%;
+    font-size: 1em;
+    margin-left: 33%;
+}
+
+a{
+   text-decoration: none;
+}
+
+.nav ul li{
+    display: inline-block;
+    width: 15%;
+    text-align: center;
+    font:1em "latoregular";
+
+    border-radius:3px 3px 3px 3px; 
+    background: #000000;
+    background: -moz-linear-gradient(top, #161616 0%, #000000 100%);
+    background: -webkit-linear-gradient(top, #161616 0%,#000000 100%);
+    background: -o-linear-gradient(top, #161616 0%,#000000 100%);
+
+    border-left:1px solid #111;
+    border-top:1px solid #111; 
+    border-right:1px solid #333; 
+    border-bottom:1px solid #333;
+
+
+    -moz-transition: all 0.4s ease-in-out; 
+    -moz-transform:translateX(0px); 
+    -o-transition: all 0.4s ease-in-out; 
+    -o-transform:translateX(0px); 
+    -webkit-transition: all 0.4s ease-in-out; 
+    -webkit-transform:translateX(0px); 
+}
+
+.nav ul li a{
+    color:#fff; 
+    display:block; 
+    padding:2%;
+
+}
+
+.nav ul li a:hover{
+    color:#F00;
+}
+
+.nav ul li:hover{
+
+    -moz-transform:translateY(-8px);
+    -o-transform:translateY(-8px);
+    -webkit-transform:translateY(-8px);
+}
+
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (max-width: 50em) {
+
+    .logo{
+        width: 20%;
+    }
+
+    .RE h1{
+     font:2.5em "intro_regular";
+    }
+
+    .RE h2{
+        font:1.5em "latobold";
+    }
+
+}
+
+
+@media only screen and (max-width: 30em) {
+
+    .logo{
+        width:30%;
+          z-index: -1;
+    }
+
+    .nav ul{
+        width: 100%;
+        float: left;
+        margin: 0;
+        padding: 0;
+
+    }
+    .nav ul li{
+        width: 100%;
+        float: left;
+    }
+
+    .RE h1{
+     font:2em "intro_regular";
+    }
+
+    .RE h2{
+        font:1em "latobold";
+    }
+
+    .nav ul li:hover{
+
+    -moz-transform:translateY(0px);
+    -o-transform:translateY(0px);
+    -webkit-transform:translateY(0px);
+    }
+
+
+
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
